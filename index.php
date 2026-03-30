@@ -14,7 +14,7 @@ $ventes = file("database/db.txt", FILE_IGNORE_NEW_LINES);
 </head>
 <body>
     <h2>Ajouter une vente</h2>
-    <form>
+    <form action="" method="post">
         <input type="number" name="montant" required="">
         <button type="submit">Ajouter</button>
     </form>
