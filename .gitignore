@@ -1,0 +1,16 @@
+# Donnees locales generees par l'application
+database/db.txt
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Fichiers systeme / editeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
