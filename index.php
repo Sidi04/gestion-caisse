@@ -28,6 +28,6 @@ $ventes = file("database/db.txt", FILE_IGNORE_NEW_LINES);
         }
         ?>
     </ul>
-    <h3>Total : <?php echo $total; ?> MRU</h3>
+    <h3>Total : <?php echo htmlspecialchars($total); ?> MRU</h3>
 </body>
 </html>
